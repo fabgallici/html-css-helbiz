@@ -39,9 +39,39 @@ ul {
   display: none;
 }
 
+/* Header image sfondo */
+.head-img-wrapper {
+  height: 550px;
+  position: relative;
+  background-image: url(../img/healbiz_header_bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+.layover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.head-title {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate( -50%, -50%);
+}
+.head-title img {
+  height: 40px;
+  width: auto;
+}
 
 
-/* Media Query */
+
+/* ------------------------------------ */
+/*             Media Query              */
 @media screen and (max-width:991px) {
   .menu-bar nav {
     display: none;
