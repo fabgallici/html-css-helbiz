@@ -102,6 +102,27 @@ ul {
   margin-top: 30px;
 }
 
+/* section 4 */
+#smart-mobility {
+  height: 500px;
+  background-image: url(../img/ScooterHelbiz-2400.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 150px;
+  position: relative;
+}
+#smart-mobility .title {
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  transform: translate( -50%, -50%);
+  width: 25%;
+  color: white;
+}
+
+/* section 5 */
+
+
 
 /* ------------------------------------ */
 /*             Media Query              */
@@ -129,4 +150,8 @@ ul {
     margin-top: 170px;
   }
 
+  #smart-mobility .title {
+    width: 50%;
+    left: 50%;
+  }
 }
