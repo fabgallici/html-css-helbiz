@@ -68,6 +68,39 @@ ul {
   width: auto;
 }
 
+/* section 1 */
+#helbiz-bikes {
+  text-align: center;
+}
+#helbiz-bikes img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  height: 400px;
+}
+
+/* section 2 */
+#helbiz-banner {
+  height: 500px;
+  background-image: url("../img/HelbizBanner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.iphone-center {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate( -50%, -50%);
+  z-index: 1;
+}
+.iphone-center > img {
+  height: 500px;
+}
+/* section 3 */
+#helbiz-work {
+  margin-top: 30px;
+}
 
 
 /* ------------------------------------ */
@@ -79,4 +112,21 @@ ul {
   .menu-hambuger {
     display: block;
   }
+}
+
+
+@media screen and (min-width:768px) and (max-width:991px) {
+  #helbiz-work {
+    margin-top: 170px;
+  }
+
+}
+
+
+@media screen and (max-width:767px) {
+
+  #helbiz-work {
+    margin-top: 170px;
+  }
+
 }
