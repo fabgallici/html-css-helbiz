@@ -11,15 +11,24 @@ release date: 26/09/2019
 
 /* Container di riga */
 .container{
-  max-width: 1170px;
+  /* max-width: 1170px; */
   margin: 0 auto;
 }
 
-.container:after{
-  content: "";
+.row {
+  width: 100%;
+  min-width: 100px;
+}
+.row::after {
+  content: '';
   display: table;
   clear: both;
 }
+/* .container:after{
+  content: "";
+  display: table;
+  clear: both;
+} */
 
 
 /* regole di colonna */

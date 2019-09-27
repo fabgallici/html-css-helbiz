@@ -105,7 +105,7 @@ ul {
 /* section 4 */
 #smart-mobility {
   height: 500px;
-  background-image: url(../img/ScooterHelbiz-2400.jpg);
+  background-image: url("../img/ScooterHelbiz-2400.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   margin-top: 150px;
@@ -117,12 +117,42 @@ ul {
   left: 80%;
   transform: translate( -50%, -50%);
   width: 25%;
-  color: white;
+  color: #fff;
 }
 
 /* section 5 */
+#get-find .row {
+  padding: 35px 15px;
+  text-align: center;
+  color: #fff;
+  height: 500px;
+}
+#get-find .row a {
+  display: inline-block;
+  color: #fff;
+  padding: 10px;
+}
+#get-find .row a:hover {
+  text-decoration: underline;
+}
+#get-find .left {
+  height: 100%;
+  background-color: #354554;
+  border-right: 20px solid #fff;
+  background-image: url("../img/HelbiZAPP.png");
+  background-size: 75%;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+#get-find .right {
+  height: 100%;
+  background-image: url("../img/Cities-1500.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-left: 20px solid #fff;
+}
 
-
+/* section 6 */
 
 /* ------------------------------------ */
 /*             Media Query              */
@@ -153,5 +183,11 @@ ul {
   #smart-mobility .title {
     width: 50%;
     left: 50%;
+  }
+
+  /* section 5 */
+  #get-find .left,
+  #get-find .right {
+    border: 0;
   }
 }
