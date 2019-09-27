@@ -176,9 +176,31 @@ ul {
   width: 45px;
 }
 
-
-
-
+/* FOOTER */
+footer {
+  background-color: #000;
+  color: #fff;
+}
+footer .row {
+  border-bottom: 1px solid #696969;
+  padding: 30px 0;
+}
+footer .row a {
+  color: #696969;
+}
+footer .foot-social li {
+  display: inline-block;
+}
+footer .foot-social a {
+  color: #fff;
+}
+.btm-foot-img {
+  text-align: center;
+  color: green;
+}
+.btm-foot-img img {
+  height: 35px;
+}
 /* ------------------------------------ */
 /*             Media Query              */
 @media screen and (max-width:991px) {
