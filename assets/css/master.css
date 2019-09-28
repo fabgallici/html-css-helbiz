@@ -72,8 +72,30 @@ i {
 .menu-hambuger {
   float: right;
   display: none;
+  position: relative;
 }
-
+/* Hamburger DropDown */
+.hamb-dropdown {
+  position: absolute;
+  /* top: 20%; */
+  right: -30px;
+  width: 150px;
+  z-index: 2;
+  display: none;
+  background-color: #fff;
+  padding: 5px;
+  text-align: center;
+  border: 1px solid #A99D7F;
+}
+.hamb-dropdown li {
+  padding: 10px;
+}
+.hamb-dropdown li:hover {
+  background-color: #c4bca8;
+}
+.menu-hambuger:hover .hamb-dropdown {
+  display: block;
+}
 /* Header image sfondo */
 .head-img-wrapper {
   height: 550px;
@@ -111,7 +133,9 @@ i {
   height: 450px;
   padding: 20px;
 }
-
+#helbiz-bikes a:hover {
+  text-decoration: underline;
+}
 /* section 2 */
 #helbiz-banner {
   height: 500px;
@@ -211,16 +235,22 @@ i {
 /* FOOTER */
 footer {
   background-color: #000;
+  padding: 5% 10% 10%;
 }
 footer .row {
+  padding: 30px;
+}
+footer .row:nth-of-type(2) {
+  border-top: 1px solid #696969;
   border-bottom: 1px solid #696969;
-  padding: 30px 0;
+  margin-top: 30px;
 }
 footer .row:first-child a {
   color: #696969;
 }
 footer .foot-social li {
   display: inline-block;
+  margin-right: 15px;
 }
 .btm-foot-img {
   text-align: center;
@@ -228,6 +258,13 @@ footer .foot-social li {
 }
 .btm-foot-img img {
   height: 35px;
+}
+footer .row [class*="col-"] li,
+footer .row [class*="col-"] p {
+  padding: 4px 0;
+}
+.foot-social > div {
+  padding-right: 10px;
 }
 /* ------------------------------------ */
 /*             Media Query              */
@@ -284,6 +321,9 @@ footer .foot-social li {
   #get-find .left,
   #get-find .right {
     border: 0;
+  }
+  footer .row [class*="col-"] {
+    margin-bottom: 15px;
   }
 }
 
