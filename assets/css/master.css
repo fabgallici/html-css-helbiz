@@ -124,7 +124,14 @@ i {
 /* section 1 */
 #helbiz-bikes {
   text-align: center;
-  padding: 50px 0;
+  padding: 35px 0 50px 0;
+}
+#helbiz-bikes .row > .left,
+#helbiz-bikes .row > .right {
+  background-color: #FAFAFA;
+  border-top: 15px solid #fff;;
+  border-left: 20px solid #fff;
+  border-right: 20px solid #fff;
 }
 #helbiz-bikes img {
   display: block;
@@ -174,7 +181,7 @@ i {
 }
 /* section 5 Get-Find*/
 #get-find .row {
-  padding: 35px 15px;
+  padding: 20px 15px 35px;
   text-align: center;
 }
 #get-find .row li {
@@ -188,6 +195,7 @@ i {
 #get-find .right {
   height: 500px;
   padding-top: 20px;
+  border-top: 15px solid #fff;
 }
 #get-find .left {
   background-color: #354554;
@@ -275,6 +283,12 @@ footer .row [class*="col-"] p {
   h3 {
     font-size: 150%;
   }
+  #helbiz-bikes .row > .left {
+    border-left: 100px solid #fff;
+  }
+  #helbiz-bikes .row > .right {
+    border-right: 100px solid #fff;
+  }
 }
 @media screen and (max-width:1199px) {
   #get-find .left {
@@ -320,7 +334,8 @@ footer .row [class*="col-"] p {
   /* section 5 */
   #get-find .left,
   #get-find .right {
-    border: 0;
+    border-left: 0;
+    border-right: 0;
   }
   footer .row [class*="col-"] {
     margin-bottom: 15px;
