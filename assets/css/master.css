@@ -100,7 +100,7 @@ i {
 .head-img-wrapper {
   height: 550px;
   position: relative;
-  background-image: url(../img/healbiz_header_bg.jpg);
+  background-image: url("../img/healbiz_header_bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -275,7 +275,7 @@ footer .row [class*="col-"] p {
   padding: 4px 0;
 }
 .foot-social > div {
-  padding-right: 10px;
+  padding-right: 15px;
 }
 /* ------------------------------------ */
 /*             Media Query              */
@@ -350,8 +350,8 @@ footer .row [class*="col-"] p {
   #helbiz-family i {
     font-size: 120%;
   }
-
-  footer [class*="col-xs"]{
+  /* For mobile phones: */
+  footer [class*="col-"]{
     width:100%;
   }
 }
