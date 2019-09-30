@@ -286,11 +286,9 @@ footer .row [class*="col-"] p {
   h3 {
     font-size: 150%;
   }
-  #helbiz-bikes .row > .left {
-    border-left: 100px solid #fff;
-  }
-  #helbiz-bikes .row > .right {
-    border-right: 100px solid #fff;
+  #helbiz-bikes .row {
+    width: 90%;
+    margin: auto;
   }
 }
 @media screen and (max-width:1199px) {
